@@ -70,7 +70,7 @@ nav
 
     body{
         height: 100%;
-        overflow: hidden !important;
+        overflow: hidden;
         width: 100%;
         position: fixed;
 
@@ -78,7 +78,7 @@ nav
     .w, #w {
         overflow-x: hidden;/*HIDE WHATS MOVED OUT OF SCREEN*/
         height: 100%;
-        overflow: hidden !important;
+        overflow: hidden;
         width: 100%;
         position: fixed;
     }

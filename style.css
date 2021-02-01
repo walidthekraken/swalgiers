@@ -98,7 +98,7 @@ nav
 
 .nav_active {
     transform: translateX(0%);
-    display: block;
+    
 }
 
 @keyframes navLinkFade{

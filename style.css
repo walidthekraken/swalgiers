@@ -21,7 +21,7 @@ nav
     min-height: 8vh;
     background-color: palevioletred;
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
+
 }
 
 .logo {
@@ -68,13 +68,17 @@ nav
 /*BREAK POINT */
 @media screen and (max-width:800px){
 
+    body{
+        height: 100%;
+        overflow: hidden !important;
+        width: 100%;
 
-    .w {
+    }
+    .w, #w {
         overflow-x: hidden;/*HIDE WHATS MOVED OUT OF SCREEN*/
     }
 
     .nav_links{
-        overflow-x: hidden;
         position: absolute;
         right: 0px;
         height: 92vh;
@@ -99,7 +103,6 @@ nav
 
 .nav_active {
     transform: translateX(0%);
-    overflow-x: hidden;
     
 }
 

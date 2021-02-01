@@ -84,6 +84,8 @@ nav
     }
 
     .nav_links{
+
+        display: none;
         position: absolute;
         right: 0px;
         height: 92vh;
@@ -108,7 +110,7 @@ nav
 
 .nav_active {
     transform: translateX(0%);
-    
+    display: block;
 }
 
 @keyframes navLinkFade{

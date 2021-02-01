@@ -77,6 +77,10 @@ nav
     }
     .w, #w {
         overflow-x: hidden;/*HIDE WHATS MOVED OUT OF SCREEN*/
+        height: 100%;
+        overflow: hidden !important;
+        width: 100%;
+        position: fixed;
     }
 
     .nav_links{

@@ -70,9 +70,8 @@ nav
         overflow-x: hidden;/*HIDE WHATS MOVED OUT OF SCREEN*/
     }
 
-    body.modal-open {
-        overflow-x: hidden;
-        position: fixed;
+    .wrapper {
+        overflow-x: hidden;/*HIDE WHATS MOVED OUT OF SCREEN*/
     }
 
     .nav_links{

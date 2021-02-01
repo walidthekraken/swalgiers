@@ -66,9 +66,7 @@ nav
 }
 /*BREAK POINT */
 @media screen and (max-width:800px){
-    body{
-        overflow-x: hidden;/*HIDE WHATS MOVED OUT OF SCREEN*/
-    }
+    
 
     .wrapper {
         overflow-x: hidden;/*HIDE WHATS MOVED OUT OF SCREEN*/
